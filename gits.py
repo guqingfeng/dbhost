@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "约饭功能版本"
+    return "约饭功能版本+聊天功能"
 
 
 if __name__ == '__main__':
